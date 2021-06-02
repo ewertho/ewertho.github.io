@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+      integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--Nav bar / topo-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white" href="#Ewerton">Ewerton</a>
+        <button
+          class="navbar-toggler bg-light"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#projetos">Projetos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#sobremim">Sobre Mim</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#habilidades">Habilidades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#certificacoes"
+                >Certificações</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Fim topo-->
+    <!-- Introdução-->
+    <div class="row py-lg-5 corPrimaria" id="Ewerton">
+      <div class="col-lg-6 col-md-8 mx-auto text-center">
+        <img src="./assets/photo3.jpg" class="foto-perfil" alt="eu" />
+        <h1 class="fw-light text-white">Ewerton Luiz Felix Barbosa</h1>
+        <p class="lead text-white">
+          Desenvolvedor FullStack - Desenvolvedor Mobile
+        </p>
+        <p>
+          <a
+            href="mailto:ewerton.lfb@gmail.com"
+            target="_blank"
+            class="btn btn-primary my-2"
+            >Email <i class="fas fa-envelope"></i
+          ></a>
+          <a
+            href="https://api.whatsapp.com/send?phone=5521974212105&text=Seja%20bem%20vindo!%20Me%20conte%2C%20o%20que%20voc%C3%AA%20deseja%3F!"
+            target="_blank"
+            class="btn btn-success my-2"
+            >Telefone <i class="fab fa-whatsapp"></i
+          ></a>
+        </p>
+        <a href="https://linkedin.com/in/eweerr" target="_blank"
+          ><i class="fab fa-linkedin text-white mx-2 fa-2x"></i
+        ></a>
+        <a href="https://github.com/ewertho" target="_blank"
+          ><i class="fab fa-github text-white mx-2 fa-2x"></i
+        ></a>
+        <a href="https://facebook.com/Peradevs" target="_blank"
+          ><i class="fab fa-facebook text-white mx-2 fa-2x"></i
+        ></a>
+      </div>
+    </div>
+    <!--Fim Introdução-->
+    <!--Album-->
+    <div class="album py-5" id="projetos">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <h2 class="jumbotron-heading text-center text-white">
+                Meu Caderninho
+              </h2>
+              <img
+                src="https://i.picasion.com/pic91/65e2e0d35ba04cae92dae7d852685a2e.gif"
+                width="100%"
+                height="250"
+                border="0"
+                alt="https://picasion.com/"
+              />
+
+              <div class="card-body">
+                <p class="card-text text-white">
+                  Projeto para fazer ciclos de pagamento. O projeto foi
+                  totalmente estruturado em Reactjs, utilizando de uma API em
+                  Nodejs que faz consulta em banco de dados MongoDB
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a
+                      href="https://meu-caderninho.herokuapp.com/"
+                      target="_blank"
+                    >
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-success text-white"
+                      >
+                        Ver Projeto
+                      </button>
+                    </a>
+                    <a
+                      href="https://github.com/ewertho/mymoney"
+                      target="_blank"
+                    >
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-primary text-white"
+                      >
+                        Codigo
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Fim do Album-->
+    <!--SobreMim-->
+    <section class="jumbotron text-center" id="sobremim">
+      <div class="container">
+        <h2 class="jumbotron heading text-white">SOBRE MIM</h2>
+        <p class="lead mt-5 text-white">
+          Comecei trabalhando por cinco anos no segmento financeiro, logo quando
+          comecei, iniciei como jovem aprendiz e mais tarde fui efeutado antes
+          do prazo final de 1 ano por bom desempenho. Posteriormente trabalhei
+          mais dois anos realizando Help Desk em uma provedora de internet da
+          minha cidade, obtendo além dos conhecimentos de atendimento ao
+          público, os conhecimentos práticos básicos em redes. Tenho bacharelado
+          em Ciência da Computação, falo inglês e espanhol básico, domínio de
+          varias linguagens de programação. Sou esforçado, determinado e não
+          deixo me abater por nada.
+        </p>
+      </div>
+    </section>
+    <!--Fim SobreMim-->
+    <!--Depoimentos-->
+    <section class="jumbotron text-center text-white" id="habilidades">
+      <div class="container">
+        <h2 class="jumbotron-heading text-center">HABILIDADES</h2>
+
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <i class="fab fa-react fa-3x m-3"></i>
+                <p class="text-white">React-Native</p>
+                <p class="text-white">React</p>
+                <i class="fab fa-vuejs fa-3x m-3"></i>
+                <p class="text-white">Vue</p>
+              </div>
+              <!-- Grid column -->
+
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <i class="fab fa-node fa-3x m-3"></i>
+                <p class="text-white">Node</p>
+                <i class="fab fa-laravel fa-3x m-3"></i>
+                <p class="text-white">Laravel</p>
+              </div>
+
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <i class="fab fa-magento fa-3x m-3"></i>
+                <p class="text-white">Magento-2.4</p>
+                <i class="fab fa-python fa-3x m-3"></i>
+                <p class="text-white">FastApi</p>
+                <p class="text-white">Flask</p>
+              </div>
+
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+
+                <i class="fab fa-aws fa-3x m-3"></i>
+                <p class="text-white">Cloud Essentials</p>
+                <i class="fab fa-windows fa-3x m-3"></i>
+                <p class="text-white">.Net5</p>
+                <p class="text-white">Azure Devops</p>
+              </div>
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+      </div>
+    </section>
+    <!--Fim Depoimentos-->
+    <!--Contatos-->
+    <section class="corPrimaria" id="certificacoes">
+      <div>
+        <div class="container-fluid">
+          <h3 class="text-center text-white">CERTIFICAÇÕES</h3>
+          <h4 class="text-center mt-5 text-white">
+            Scrum Foundation Professional Certificate (SFPC)
+          </h4>
+        </div>
+      </div>
+    </section>
+    <!--Fim Contatos-->
+    <!--Footer-->
+    <footer class="text-center bg-dark">
+      <p class="text-white">
+        São Gonçalo, Rj
+        <a href="https://goo.gl/maps/K9VgZhfXdm8LBo5B9"
+          ><i class="fas fa-map-marked-alt text-white fa-2x ms-2 me-2"></i
+        ></a>
+        Cep: 24474-560
+      </p>
+    </footer>
+    <!--Fim Footer-->
+  </body>
+</html>

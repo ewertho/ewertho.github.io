@@ -1,0 +1,44 @@
+body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+}
+.foto-perfil {
+  height: 40%;
+  width: 20%;
+  border-radius: 50%;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black !important;
+}
+.icones {
+  padding-left: 5px;
+}
+
+footer {
+  padding-top: 15px;
+  padding-bottom: 5px;
+  margin-bottom: 0px;
+}
+
+#sobremim,
+#certificacoes,
+#habilidades {
+  padding: 2rem;
+}
+#Ewerton,
+#sobremim,
+#certificacoes,
+.card {
+  background-color: #1f03b9;
+}
+
+#projetos,
+#habilidades {
+  background-color: #372370;
+}
